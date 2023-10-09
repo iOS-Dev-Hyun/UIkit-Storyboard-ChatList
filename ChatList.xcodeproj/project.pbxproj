@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		54032EA82AD086F400000187 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54032EA72AD086F400000187 /* Chat.swift */; };
+		54032EAA2AD088A800000187 /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54032EA92AD088A800000187 /* ChatListViewController.swift */; };
+		544218892AD3FF3E008414D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 544218882AD3FF3E008414D9 /* Assets.xcassets */; };
+		5442188B2AD40289008414D9 /* ChatListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5442188A2AD40289008414D9 /* ChatListCollectionViewCell.swift */; };
 		54569C122AD08691004CAAF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54569C112AD08691004CAAF0 /* AppDelegate.swift */; };
 		54569C142AD08691004CAAF0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54569C132AD08691004CAAF0 /* SceneDelegate.swift */; };
-		54569C162AD08691004CAAF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54569C152AD08691004CAAF0 /* ViewController.swift */; };
 		54569C192AD08691004CAAF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54569C172AD08691004CAAF0 /* Main.storyboard */; };
-		54569C1B2AD08693004CAAF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54569C1A2AD08693004CAAF0 /* Assets.xcassets */; };
 		54569C1E2AD08693004CAAF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54569C1C2AD08693004CAAF0 /* LaunchScreen.storyboard */; };
 		54569C292AD08693004CAAF0 /* ChatListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54569C282AD08693004CAAF0 /* ChatListTests.swift */; };
 		54569C332AD08693004CAAF0 /* ChatListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54569C322AD08693004CAAF0 /* ChatListUITests.swift */; };
@@ -38,12 +39,13 @@
 
 /* Begin PBXFileReference section */
 		54032EA72AD086F400000187 /* Chat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		54032EA92AD088A800000187 /* ChatListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
+		544218882AD3FF3E008414D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../starter,final 파일/Part3_iOS_Development_Basic/Ch3-List_and_Grid/03_02-ChatList/starter/03_02-ChatList/ChatList/Assets.xcassets"; sourceTree = "<group>"; };
+		5442188A2AD40289008414D9 /* ChatListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListCollectionViewCell.swift; sourceTree = "<group>"; };
 		54569C0E2AD08691004CAAF0 /* ChatList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54569C112AD08691004CAAF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54569C132AD08691004CAAF0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		54569C152AD08691004CAAF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		54569C182AD08691004CAAF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		54569C1A2AD08693004CAAF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54569C1D2AD08693004CAAF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54569C1F2AD08693004CAAF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54569C242AD08693004CAAF0 /* ChatListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,10 +105,11 @@
 			children = (
 				54569C112AD08691004CAAF0 /* AppDelegate.swift */,
 				54569C132AD08691004CAAF0 /* SceneDelegate.swift */,
-				54569C152AD08691004CAAF0 /* ViewController.swift */,
 				54032EA72AD086F400000187 /* Chat.swift */,
 				54569C172AD08691004CAAF0 /* Main.storyboard */,
-				54569C1A2AD08693004CAAF0 /* Assets.xcassets */,
+				5442188A2AD40289008414D9 /* ChatListCollectionViewCell.swift */,
+				54032EA92AD088A800000187 /* ChatListViewController.swift */,
+				544218882AD3FF3E008414D9 /* Assets.xcassets */,
 				54569C1C2AD08693004CAAF0 /* LaunchScreen.storyboard */,
 				54569C1F2AD08693004CAAF0 /* Info.plist */,
 			);
@@ -235,7 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				54569C1E2AD08693004CAAF0 /* LaunchScreen.storyboard in Resources */,
-				54569C1B2AD08693004CAAF0 /* Assets.xcassets in Resources */,
+				544218892AD3FF3E008414D9 /* Assets.xcassets in Resources */,
 				54569C192AD08691004CAAF0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,10 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54569C162AD08691004CAAF0 /* ViewController.swift in Sources */,
+				5442188B2AD40289008414D9 /* ChatListCollectionViewCell.swift in Sources */,
 				54032EA82AD086F400000187 /* Chat.swift in Sources */,
 				54569C122AD08691004CAAF0 /* AppDelegate.swift in Sources */,
 				54569C142AD08691004CAAF0 /* SceneDelegate.swift in Sources */,
+				54032EAA2AD088A800000187 /* ChatListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
